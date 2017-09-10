@@ -101,7 +101,7 @@ CREATE
 // Jogadores da Alemanha
 CREATE(Low:Pessoa {nome: "Joachim Löw"})
 CREATE
-  (Low)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha)
+  (Low)-[:JOGOU_PELA {ano: 2014}]->(Alemanha)
 CREATE
   (Low)-[:JOGOU_COMO {ano: 2014}]->(COACH)
 
@@ -109,9 +109,9 @@ CREATE(Neuer:Pessoa {nome: "Manuel Neuer"})
 CREATE(Weidenfeller:Pessoa {nome: "Roman Weidenfeller"})
 CREATE(Zieler:Pessoa {nome: "Ron-Robert Zieler"})
 CREATE
-  (Neuer)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Weidenfeller)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Zieler)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha)
+  (Neuer)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Weidenfeller)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Zieler)-[:JOGOU_PELA {ano: 2014}]->(Alemanha)
 CREATE
   (Neuer)-[:JOGOU_COMO {ano: 2014}]->(GK),
   (Weidenfeller)-[:JOGOU_COMO {ano: 2014}]->(GK),
@@ -126,14 +126,14 @@ CREATE(Mertesacker:Pessoa {nome: "Per Mertesacker"})
 CREATE(Lahm:Pessoa {nome: "Philipp Lahm"})
 CREATE(Mustafi:Pessoa {nome: "Shkodran Mustafi"})
 CREATE
-  (Boateng)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Grosskreutz)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Durm)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Hoewedes)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Hummels)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Mertesacker)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Lahm)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Mustafi)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha)
+  (Boateng)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Grosskreutz)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Durm)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Hoewedes)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Hummels)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Mertesacker)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Lahm)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Mustafi)-[:JOGOU_PELA {ano: 2014}]->(Alemanha)
 CREATE
   (Boateng)-[:JOGOU_COMO {ano: 2014}]->(DF),
   (Grosskreutz)-[:JOGOU_COMO {ano: 2014}]->(DF),
@@ -154,15 +154,15 @@ CREATE(Ozil:Pessoa {nome: "Mesut Ozil"})
 CREATE(Schuerrle:Pessoa {nome: "Andre Schuerrle"})
 CREATE(Schweinsteiger:Pessoa {nome: "Bastian Schweinsteiger"})
 CREATE
-  (Draxler)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Ginter)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Goetze)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Kramer)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Khedira)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Kroos)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Ozil)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Schuerrle)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Schweinsteiger)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha)
+  (Draxler)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Ginter)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Goetze)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Kramer)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Khedira)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Kroos)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Ozil)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Schuerrle)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Schweinsteiger)-[:JOGOU_PELA {ano: 2014}]->(Alemanha)
 CREATE
   (Draxler)-[:JOGOU_COMO {ano: 2014}]->(MF),
   (Ginter)-[:JOGOU_COMO {ano: 2014}]->(MF),
@@ -178,9 +178,9 @@ CREATE(Klose:Pessoa {nome: "Miroslav Klose"})
 CREATE(Mueller:Pessoa {nome: "Thomas Mueller"})
 CREATE(Podolski:Pessoa {nome: "Lukas Podolski"})
 CREATE
-  (Klose)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Mueller)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha),
-  (Podolski)-[:JOGOU_PELA {ano: 2014}]->(Aleamanha)
+  (Klose)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Mueller)-[:JOGOU_PELA {ano: 2014}]->(Alemanha),
+  (Podolski)-[:JOGOU_PELA {ano: 2014}]->(Alemanha)
 CREATE
   (Klose)-[:JOGOU_COMO {ano: 2014}]->(FW),
   (Mueller)-[:JOGOU_COMO {ano: 2014}]->(FW),
